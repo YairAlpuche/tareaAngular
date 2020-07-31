@@ -1,0 +1,17 @@
+.caja{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #333785;
+    background-color: #c8cbe6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.caja:hover{
+    box-shadow:  0px 2px 6px #dddee2;
+}
+p{
+    margin: 0;
+  }

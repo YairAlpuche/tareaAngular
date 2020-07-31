@@ -1,0 +1,100 @@
+@import 'colors';
+*{
+    font-family: 'Red Rose', cursive;
+}
+body{
+    margin: 0;
+    background-color: $grey-10;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    // border: 1px solid $indigo;
+    background-color: rgba($indigo,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.wrapper{
+    //margin: 60px;
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+max-width: 1290px;
+width: 100%;
+display: flex;
+// border: 1px solid $indigo;
+}
+
+.main-wrapper{
+    max-width: 830px;
+    width: 830px;
+    height: 2800px;
+    // border: 1px solid $aqua;
+    //background: red;
+}
+
+.side-wrapper{
+    width: 100%;
+    max-width: 830px;
+    //outline: solid $green;
+    margin-right: 60px;;
+    max-height: 400px;
+}
+
+.cardside{
+    //color: blue;
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0px 2px 0px $grey-20;
+}
+.cardmain{
+    //color: blue;
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0px 2px 0px $grey-20;
+}
+
+.title{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 700px)
+{
+    .container{
+        flex-direction: column;
+    }
+    .side-wrapper{
+        width: 100%;
+        //max-width: 200px;
+        height: 10px;
+        outline: solid $aqua;
+        margin-right: 10px;
+        margin-left: 10px;
+        //max-height: 400px;
+        background-color: $aqua;
+    }
+    .main-wrapper{
+        margin-top: 10px;
+        margin-right: 10px;;
+        margin-left: 10px;
+        width: 100%;
+    }
+    .cardside{
+        border-radius: 0px;
+        padding: 10px;
+    }
+    .wrapper{
+        margin-top: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
+
